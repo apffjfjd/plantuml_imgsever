@@ -1,0 +1,24 @@
+{
+  "name": "visualization",
+  "version": "0.0.0",
+  "description": "다이어그램, 표, 테이블 등을 그린 후 github pages 기능을 활용해 배포하여 해당 이미지를 url로 활용할 목적의 저장소",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/generateDiagram.js",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apffjfjd/visualization.git"
+  },
+  "author": "kdkim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apffjfjd/visualization/issues"
+  },
+  "homepage": "https://github.com/apffjfjd/visualization#readme",
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "mermaid": "^11.4.0"
+  }
+}
