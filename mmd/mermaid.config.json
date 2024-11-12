@@ -1,0 +1,13 @@
+{
+    "theme": "base",
+    "themeVariables": {
+      "primaryColor": "#ffcc00",
+      "edgeLabelBackground": "#ffffff",
+      "tertiaryColor": "#f0f0f0",
+      "fontFamily": "Arial",
+      "fontSize": "16px",
+      "noteBkgColor": "#e6ffe6",
+      "noteTextColor": "#333333"
+    }
+  }
+  
