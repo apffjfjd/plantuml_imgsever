@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant GENAI as GENAI
+    participant API as API
+    participant UI as UI
+
+    GENAI ->> API: 거래 데이터
+    API ->> GENAI: 거래 데이터 검증 요청
+    GENAI ->> API: 거래 데이터 검증 결과
+    API ->> API: DB INSERT
+    API ->> UI: 건별 거래 정보
+    UI ->> UI: 화면 처리
+    UI ->> API: 
+    API ->> GENAI: 거래 데이터 처리 완료
+    UI ->> API: 통계 요청
+    API ->> API: DB SELECT
+    API ->> UI: 통계 데이터
