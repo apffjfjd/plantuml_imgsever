@@ -16,9 +16,11 @@
   "bugs": {
     "url": "https://github.com/apffjfjd/visualization/issues"
   },
-  "homepage": "https://github.com/apffjfjd/visualization#readme",
+  "homepage": "https://github.com/apffjfjd/visualization/public/browser.png",
   "dependencies": {
-    "gh-pages": "^6.2.0",
     "mermaid": "^11.4.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
